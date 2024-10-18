@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-ClientRegister-11e267e9-10bf-4ad6-aab9-c97eb567e7b8</UserSecretsId>
+    <UserSecretsId>dotnet-ClienteRegisterConsumer-c8f71d47-e61c-43c2-adb4-13d12c6c9c85</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
