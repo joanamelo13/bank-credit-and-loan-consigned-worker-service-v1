@@ -9,7 +9,7 @@
   <ItemGroup>
     <Folder Include="Enumerables\" />
 	<Folder Include="Message\" />
-	  <Folder Include="Message\Interfaces\" />
+	<Folder Include="Message\Interfaces\" />
   </ItemGroup>
 
 </Project>

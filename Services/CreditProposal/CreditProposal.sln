@@ -13,13 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{2A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publisher", "Publisher", "{661D3AAD-9117-4CBC-BB66-3A6D4914B167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditProposalConsumerWorker", "CreditProposalConsumerWorker\CreditProposalConsumerWorker.csproj", "{FFCED98E-C26E-4050-A75F-1603DE058475}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditProposalConsumerWorker", "CreditProposalConsumerWorker\CreditProposalConsumerWorker.csproj", "{FFCED98E-C26E-4050-A75F-1603DE058475}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditProposalPublisher", "CreditProposalPublisher\CreditProposalPublisher.csproj", "{359B73B2-EB43-4CA0-ADE7-E89F298C04FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditProposalPublisherWorker", "CreditProposalPublisher\CreditProposalPublisherWorker.csproj", "{359B73B2-EB43-4CA0-ADE7-E89F298C04FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditProposalDomain", "CreditProposalDomain\CreditProposalDomain.csproj", "{6261676A-0A41-4BD2-9A59-646AD4A64085}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditProposalDomain", "CreditProposalDomain\CreditProposalDomain.csproj", "{6261676A-0A41-4BD2-9A59-646AD4A64085}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditProposalRepository", "CreditProposalRepository\CreditProposalRepository.csproj", "{C17E5DA1-C816-4D88-AA15-D96D87044F95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditProposalRepository", "CreditProposalRepository\CreditProposalRepository.csproj", "{C17E5DA1-C816-4D88-AA15-D96D87044F95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
