@@ -23,10 +23,10 @@ public class EventBus : IEventBus
         switch (eventType)
         {
             case EventType.Publisher:
-                _eventBus = new EventBus(eventType);
+                _eventBus = new Publisher();
                 break;
             case EventType.Consumer:
-                _eventBus = new EventBus(eventType);
+                _eventBus = new Consumer();
                 break;
             default:
                 throw new NotImplementedException();
@@ -41,10 +41,5 @@ public class EventBus : IEventBus
     public void ConsumeMessage()
     {
         _eventBus.ConsumeMessage();
-    }
-
-    public ConnectionFactory SetConnection()
-    {
-        return _eventBus.SetConnection();
     }
 }
